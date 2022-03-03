@@ -83,7 +83,7 @@
                 &trans      &trans     &trans        &trans          &trans
                 &kp DEL     &trans     &trans        &trans          &trans           
             >;  
-			sensor-bindings = <&inc_dec_kp RGB_BRI RGB_BRD &inc_dec_kp RGB_HUI RGB_HUD>;
+			sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
 
         };
     };
